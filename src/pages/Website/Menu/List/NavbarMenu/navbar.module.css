@@ -1,0 +1,23 @@
+.navbar_menu {
+    display: flex;
+    justify-content: center;
+    background: #CE181F;
+    font-family: "MergeBlack", sans-serif;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.navbar_menu li {
+    padding: 20px;
+    list-style: none;
+}
+
+.navbar_menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_menu li:hover {
+    background-color: #FFD477;
+    color: #CE181F;
+}

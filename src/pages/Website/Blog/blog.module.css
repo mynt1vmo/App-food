@@ -1,0 +1,68 @@
+.banner {
+    background-image: url(https://jollibee.com.vn/images/news/news.jpg);
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+
+.pop {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    color: #fff;
+    width: 25rem;
+    height: 25rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.vertical {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #c62026;
+    border-radius: 20px;
+}
+
+.broad {
+    padding: 45px 0 30px 30px;
+    box-shadow: 0px 4px 4px 0 rgb(0 0 0 / 30%);
+}
+
+.card_blog {
+    background-color: #F4F4F4;
+    box-shadow: 0 0 4px 4px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card_blog a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.blog_title {
+    padding: 0 2rem;
+    height: 30vh;
+}
+
+.blog_title a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.blog_title a:hover {
+    color: #CE181F;
+}
+
+.blog_title p {
+    color: slategrey;
+    font-size: 12px;
+}

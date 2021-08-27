@@ -1,0 +1,51 @@
+.cate_content {
+    background-image: url(https://jollibee.com.vn/images/menu/bg-top.png), url(https://jollibee.com.vn/images/menu/bg-bottom.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center calc(100% - 80px);
+    background-size: 100% auto, 100% auto;
+}
+
+.card_product {
+    border-right: 2px dashed #ffd984;
+    border-bottom: 2px dashed #ffd984;
+    text-align: center;
+    transition: margin 0.3s;
+    padding: 30px 15px;
+    min-height: 500px;
+}
+
+.image {
+    width: 355px;
+    margin-bottom: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item_name {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    color: #161616;
+    max-width: 450px;
+    min-height: 2.8em;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.item_price {
+    font-weight: bold;
+    color: #ce2026;
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #c62026;
+    padding: 5px 30px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: white;
+}
