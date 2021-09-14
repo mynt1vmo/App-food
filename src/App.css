@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Coiny', cursive;
+    font-family: 'Inter', sans-serif;
 }
 
 .contact:hover {

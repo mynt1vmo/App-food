@@ -1,172 +1,802 @@
 {
-    "categories": [{
-            "id": 1,
-            "name": "Gà giòn vui vẻ ",
-            "image1": "https://jollibee.com.vn/uploads/setting/4b675b9eef6680-menugagionvuive.png",
-            "image2": "https://jollibee.com.vn/uploads/setting/e17856b74b7a0e-titlegagionvuive.png"
-
-        },
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gà sốt cay ",
+      "image1": "https://jollibee.com.vn/uploads/setting/32f3bc4c206abb-cmg.png",
+      "image2": "https://jollibee.com.vn/uploads/setting/0a7c5c03bdcaaf-titlegasotcay.png",
+      "time": "2021-09-13T22:30:15+07:00"
+    },
+    {
+      "id": 3,
+      "name": "Mỳ ý sốt bò bằm ",
+      "image1": "https://jollibee.com.vn/uploads/setting/4b675b9eef6680-menugagionvuive.png",
+      "image2": "https://jollibee.com.vn/uploads/setting/870d84c56fb2b9-titlemiysotbobam.png",
+      "time": "2021-09-10T01:53:44+07:00"
+    },
+    {
+      "name": "2 MIẾNG GÀ GIÒN",
+      "image1": "https://jollibee.com.vn/uploads/setting/4b675b9eef6680-menugagionvuive.png",
+      "id": 4,
+      "time": "2021-09-10T01:56:37+07:00"
+    }
+  ],
+  "products": [
+    {
+      "id": 7,
+      "name": "1 MIẾNG GÀ SỐT CAY + CƠM",
+      "price": 42000,
+      "description": "1 Miếng Gà Giòn Cay / 1 Miếng Gà Giòn Không Cay / 1 Miếng Gà Truyền thống + cơm",
+      "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+      "categoryId": 2,
+      "time": "2021-09-09T23:05:04+07:00"
+    },
+    {
+      "id": 8,
+      "name": "1 MIẾNG GÀ SỐT CAY + CƠM + NƯỚC + SÚP",
+      "price": 50000,
+      "description": "1 Miếng Gà Giòn Cay / 1 Miếng Gà Giòn Không Cay / 1 Miếng Gà Truyền thống + cơm + nước + súp",
+      "image": "https://jollibee.com.vn/uploads/dish/b827535750c3e4-hinhghep07.png",
+      "categoryId": 2,
+      "time": "2021-09-09T23:05:29+07:00"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "1900 - 1533 ",
+      "image": "https://jollibee.com.vn/images/service/1.png"
+    },
+    {
+      "id": 4,
+      "title": "Đặt tiệc sinh nhật",
+      "content": "Bạn đang tìm ý tưởng cho một buổi tiệc sinh nhật thật đặc biệt dành cho con của bạn? Hãy chọn những bữa tiệc của Jollibee. Sẽ có nhiều điều vui nhộn và rất đáng nhớ dành cho con của bạn.",
+      "image": "https://jollibee.com.vn/images/kid/intro-party.png",
+      "detail": [
         {
-            "id": 2,
-            "name": "Gà sốt cay ",
-            "image1": "https://jollibee.com.vn/uploads/setting/32f3bc4c206abb-cmg.png",
-            "image2": "https://jollibee.com.vn/uploads/setting/0a7c5c03bdcaaf-titlegasotcay.png"
-        }, {
-            "id": 3,
-            "name": "Mỳ ý sốt bò bằm ",
-            "image1": "https://jollibee.com.vn/uploads/setting/4b675b9eef6680-menugagionvuive.png",
-            "image2": "https://jollibee.com.vn/uploads/setting/870d84c56fb2b9-titlemiysotbobam.png"
+          "name": "Tiệc vui thả ga - ăn ngon cực đã ",
+          "description": "Jollibee luôn muốn làm điều tốt đẹp nhất cho người mà Jollibee yêu quý nhất , còn bạn thì sao? Người bạn yêu quý nhất có phải là những thiên thần bé bỏng nhà mình? Bạn có muốn làm điều gì đó thật đặc biệt cho sinh nhật con bạn không? Nếu có thì hãy bắt tay với Jollibee để thực hiện kế hoạch này nhé! Không cần phải đi đâu xa,không cần phải suy nghĩ tất tần tật mọi thứ sao cho một buổi tiệc hoàn chỉnh cho các Công chúa - Hoàng Tử nhà mình,scác bạn chỉ cần click chọn gói phần ăn nào phù hợp cho con mình và đến cửa hàng gần nhất để lựa chọn dịch vụ của Jollibee.Còn lại hãy để Jolllibee lo nhé!",
+          "image": "https://jollibee.com.vn/images/kid/intro-club.png"
         }
-    ],
-    "products": [{
-            "id": 1,
-            "name": "2 MIẾNG GÀ GIÒN",
-            "price": 60000,
-            "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
-            "categoryId": 1
-
-        },
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Jollibee kid club",
+      "content": "Hãy để con bạn thoả thích thể hiện và khám phá tài năng bên trong của mình cùng cơ hội gặp gỡ những bạn đồng lứa khác tại Jollibee Kids Club. Cùng tìm hiểu thêm thông tin về Jollibee Kids Club và tham gia ngay.",
+      "image": "https://jollibee.com.vn/images/service/3.png",
+      "detail": [
         {
-            "id": 2,
-            "name": "4 MIẾNG GÀ GIÒN",
-            "price": 116000,
-            "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
-            "categoryId": 1
-
-        },
-        {
-            "id": 3,
-            "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
-            "price": 80000,
-            "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
-            "categoryId": 1
-
-        },
-        {
-            "id": 4,
-            "name": "2 MIẾNG GÀ GIÒN",
-            "price": 60000,
-            "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
-            "categoryId": 1
-
-        },
-        {
-            "id": 5,
-            "name": "4 MIẾNG GÀ GIÒN",
-            "price": 116000,
-            "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
-            "categoryId": 1
-
-        },
-        {
-            "id": 6,
-            "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
-            "price": 80000,
-            "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
-            "categoryId": 1
-
-        },
-
-        {
-            "id": 7,
-            "name": "1 MIẾNG GÀ SỐT CAY + CƠM",
-            "price": 42000,
-            "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
-            "categoryId": 2
-
-        },
-        {
-            "id": 8,
-            "name": "1 MIẾNG GÀ SỐT CAY + CƠM + NƯỚC + SÚP",
-            "price": 50000,
-            "image": "https://jollibee.com.vn/uploads/dish/b827535750c3e4-hinhghep07.png",
-            "categoryId": 2
-
-        },
-        {
-            "id": 9,
-            "name": "01 MIẾNG GÀ GIÒN VUI VẺ + 01 MỲ Ý SỐT BÒ BẰM + 01 NƯỚC NGỌT (VỪA)",
-            "price": 60000,
-            "image": "https://jollibee.com.vn/uploads/dish/8f78c6810be7e1-2840004_jedscombo65kcompressor.png",
-            "categoryId": 3
-
+          "name": "Vui tung hoành - nhận quà cực đỉnh",
+          "description": "Các bé luôn thích vui chơi sau các giờ học căng thẳng tại trường , Jollibee biết được điều này và luôn thiết kế các chương trình phù hợp đáp ứng được nhu cầu vừa chơi- vừa học lại được ăn ngon. Đến với câu lạc bộ Jollibee các bé sẽ có dịp gặp gỡ những người bạn mới, được tham gia vào các trò chơi hấp dẫn, học thêm nhiều kỹ năng mới  lại được nhận quà xinh mang về. Hãy đến với cửa hàng Jollibee gần nhất tại khu vực để  tham gia vào các hoạt động đặc biệt mà Jollibee dành cho bé nhé. bên cạnh đó các bé nhà bạn còn được vui chơi cùng bạn Ong dễ thương và thưởng thức Mỳ Ý thơm ngon, Gà Rán giòn tan nữa đấy.",
+          "image": "https://jollibee.com.vn/images/kid/intro-club.png"
         }
-    ],
-    "services": [{
-            "id": 1,
-            "title": "1900 - 1533 ",
-            "image": "https://jollibee.com.vn/images/service/1.png"
-        }, {
-            "id": 4,
-            "title": "Đặt tiệc sinh nhật",
-            "content": "Bạn đang tìm ý tưởng cho một buổi tiệc sinh nhật thật đặc biệt dành cho con của bạn? Hãy chọn những bữa tiệc của Jollibee. Sẽ có nhiều điều vui nhộn và rất đáng nhớ dành cho con của bạn.",
-            "image": "https://jollibee.com.vn/images/kid/intro-party.png",
-            "detail": [{
-                "name": "Tiệc vui thả ga - ăn ngon cực đã ",
-                "description": "Jollibee luôn muốn làm điều tốt đẹp nhất cho người mà Jollibee yêu quý nhất , còn bạn thì sao? Người bạn yêu quý nhất có phải là những thiên thần bé bỏng nhà mình? Bạn có muốn làm điều gì đó thật đặc biệt cho sinh nhật con bạn không? Nếu có thì hãy bắt tay với Jollibee để thực hiện kế hoạch này nhé! Không cần phải đi đâu xa,không cần phải suy nghĩ tất tần tật mọi thứ sao cho một buổi tiệc hoàn chỉnh cho các Công chúa - Hoàng Tử nhà mình,scác bạn chỉ cần click chọn gói phần ăn nào phù hợp cho con mình và đến cửa hàng gần nhất để lựa chọn dịch vụ của Jollibee.Còn lại hãy để Jolllibee lo nhé!",
-                "image": "https://jollibee.com.vn/images/kid/intro-club.png"
-            }]
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Đơn hàng lớn",
+      "content": "Để phục vụ sở thích quây quần cùng gia đình và bạn bè, chương trình chiết khấu hấp dẫn dành cho những đơn hàng lớn đã ra đời để đem đến những lựa chọn tiện lợi hơn cho bạn. Liên hệ ngay với cửa hàng gần nhất để được phục vụ.",
+      "image": "https://jollibee.com.vn/images/service/4.png",
+      "detail": [
+        {
+          "name": "Càng đông càng vui",
+          "description": "Để phục vụ sở thích quây quần cùng gia đình và bạn bè, chương trình chiết khấu hấp dẫn dành cho những đơn hàng lớn đã ra đời để đem đến những lựa chọn tiện lợi hơn cho bạn. Liên hệ ngay với cửa hàng gần nhất để được phục vụ. Món ăn không chỉ ngon mà còn phải đông và vui. Jollibee cung cấp những ưu đãi hợp lý cho các bạn đang lựa chọn dịch vụ ăn ngon tại chỗ mà không phải đi xa.Với kinh nghiệm phục vụ cho các Trường học, Công Ty, Văn Phòng, Ngân Hàng, Đoàn thể, Jollibee hiểu rõ tầm quan trọng của một buổi tiệc vui hoành tráng của tập thể là như thế nào nên Jollibee tự thấy mình có trách nhiệm  trong từng phần ăn phục vụ đến tay khách hàng.Với tiêu chí Càng đông càng vui; Vui ăn ngon - vui được ưu đãi, khi khách hàng đặt nhiều phần ăn sẽ nhận được những ưu đãi tương ứng. Hãy liên hệ ngay với cửa hàng gần nhất để biết thêm thông tin chi tiết nhé!",
+          "image": "https://jollibee.com.vn/uploads/page/45fda14483c653-combobo22.png"
+        }
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "image": "https://jollibee.com.vn/uploads/thumbnail/post/d3bcb5e267aff3-image006.jpg",
+      "title": "Khám phá nhà máy đạt chuẩn iso 22000: 2018 CỦA Jollibee",
+      "content": "Đạt được cột mốc cửa hàng thứ 100, Jollibee - chuỗi nhà hàng thức ăn nhanh lớn thứ 3 tại Việt Nam – càng củng cố cam kết lan tỏa niềm vui bất tận đến các gia đình Việt Nam.",
+      "detail": [
+        {
+          "title": "Khám phá nhà máy đạt chuẩn iso 22000: 2018 CỦA Jollibee",
+          "description": "Nhà máy Jollibee Việt Nam tọa lạc tại Khu công nghiệp Tân Kim mở rộng (Cần Giuộc, Long An) có tổng diện tích 10.000 m2, được đầu tư dây chuyền hiện đại, hoạt động theo quy trình khép kín, đảm bảo tiêu chuẩn chất lượng quốc tế.Gà giòn vui vẻ, mỳ Ý sốt bò bằm, gà sốt cay… là những món ăn được khách hàng Việt yêu thích tại Jollibee. Những món ăn này sở hữu hương vị thơm ngon, đảm bảo chất lượng vệ sinh an toàn thực phẩm cùng mức giá hợp lý."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://jollibee.com.vn/uploads/thumbnail/post/ce17e25a745d3d-1600524922w50063841568619115.png",
+      "title": "Nhà máy mới Jollibee được Viêt Nam nhận iso 22000:2018",
+      "content": "Năm nay, Jollibee Việt Nam đưa vào vận hành nhà máy mới tại Long An và nhận được chứng nhận ISO 22000: 2018 về quản lý ...",
+      "detail": [
+        {
+          "title": "Nhà máy mới Jollibee được Viêt Nam nhận iso 22000:2018",
+          "description": "Năm 2019, Jollibee Việt Nam vừa đánh dấu bước chuyển mình trong ngành thức ăn nhanh bằng việc đưa vào hoạt động nhà máy chế biến mới tại khu công nghiệp Tân Kim mở rộng, Cần Giuộc, Long An. Công ty đã nhận chứng nhận quốc tế ISO 22000:2018. Việc xây dựng và sở hữu riêng nhà máy chế biến được xem là dấu ấn, giúp Jollibee Việt Nam chiếm ưu thế trên thị thường thức ăn nhanh trong nước, trở thành một trong những thương hiệu dẫn đầu về chất lượng sản phẩm, dịch vụ trong ngành QSR nói chung."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://jollibee.com.vn/uploads/thumbnail/post/b2427b54e5bed3-hnhnh1.jpg",
+      "title": "Jollibee tưng bừng khai trương cửa hằng thứ 100 tại Việt Nam",
+      "content": "Jollibee Việt Nam đã đưa vào vận hành nhà máy mới với chứng nhận ISO 22000:2018 về quản lý an toàn vệ sinh thực phẩm quốc tế.",
+      "detail": [
+        {
+          "title": "Jollibee tưng bừng khai trương cửa hằng thứ 100 tại Việt Nam",
+          "description": "Từ khi khai trương cửa hàng đầu tiên tại Việt Nam vào năm 2005, chúng tôi rất vinh dự khi Jollibee luôn được người dân Việt Nam đón nhận nồng nhiệt” – ông Dennis Flores, Giám đốc bộ phận Kinh doanh quốc tế tập đoàn Jollibee chia sẻ. “Với nhiều thực khách, Jollibee là một trong những trải nghiệm ẩm thực đặc biệt đầu tiên với cả gia đình, dù là tụ họp để thưởng thức những món ăn ngon hay tổ chức những bữa tiệc cho các con. Những khoảnh khắc tương tự như vậy góp phần tạo nên những niềm vui bất tận mà Jollibee và các gia đình Việt đã cùng trải qua trong những năm vừa qua. Do đó, hoạt động kinh doanh tại Việt Nam đã và đang đóng vai trò trụ cột trong hoạt động kinh doanh quốc tế của Jollibee, và Việt Nam vẫn sẽ tiếp tục là một trong những thị trường quan trọng bậc nhất ngay cả khi chúng tôi vươn xa hơn ra những thị trường khác trên thế giới.”Ông Lâm Hồng Nguyên, Tổng Giám đốc Jollibee Việt Nam, cho biết: “Jollibee luôn cố gắng lan tỏa niềm vui đến mợi người ở khắp mọi nơi. Với hệ thống 100 cửa hàng trên cả nước, chúng tôi vô cùng phấn khởi khi có thể đưa Jollibee - thương hiệu của niềm vui và tiếng cười – đến gần hơn với các gia đình Việt từ Bắc chí Nam"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://jollibee.com.vn/uploads/thumbnail/post/30bbd2a8752dea-jollibeehangdieu_new_jun082016.jpg",
+      "title": "Jollibee - Thấu hiểu để thành công",
+      "content": "Thị trường thức ăn nhanh tại Việt Nam chưa bao giờ “giảm nhiệt” cạnh tranh khi ngày càng có nhiều thương hiệu gia nhập sân chơi với quy mô chuỗi cửa hàng lớn mạnhvà chiến lược kinh doanh liên tục thay đổi. Để thành công, các thương hiệu thức ăn nhanh phải có chiến lược phù hợp và khác biệt.",
+      "detail": [
+        {
+          "title": "Jollibee - Thấu hiểu để thành công",
+          "description": "Thông tin Burger King đóng một số cửa hàng ở TP.HCM, Đà Nẵng đã dấy lên những nghi ngờ về thị trường này đang gặp khó. Tuy nhiên, đại diện Burger King cho hay, việc đóng cửa một loạt cửa hàng là chiến lược thay thế chuỗi cửa hàng mới, có vị trí đẹp hơn. Tương tự, McDonalds cũng đã liên tục mở rộng chuỗi cửa hàng ở những vị trí đắc địa. Đại diện Lotteria cũng cho biết, từ năm 2014, Hãng chú trọng mở các cửa hàng trọng điểm, diện tích tương đối lớn, vị trí đắc địa. Với 19 cửa hàng hiện có, Dairy Queen (DQ) cũng chỉ tập trung ở trung tâm và dự kiến phát triển lên 60 cửa hàng vào năm 2019.Trước đó vào tháng 12/2015, Jollibee - Thương hiệu thứcaăn nhanh đến từ Philippines - cũng đã công bố mở được hơn 70 cửa hàng sau hơn 10 năm hoạt động. Theo bà Trần Thị Lan Anh, Phó chủ tịch Tập đoàn Jollibee Food, kiêm Tổng Giám đốc Công ty TNHH Jollibee Việt Nam, Jollibee đã tự xây dựng được một chuỗi cửa hàng rộng lớn với nhiều món ăn quốc tế và địa phương cùng một đội ngũ quản lý vững vàng. Theo kế hoạch, mỗi năm thương hiệu này sẽ tự mở thêm khoảng 20 cửa hàng. Chinh phục “thượng đế” bằng món ăn ngon.Không chỉ cạnh trạnh trong cuộc đua mở chuỗi, các “ông lớn” ngành thức ăn nhanh còn phải giành lấy cảm tình của “thượng đế” qua từng món ăn ngon và hơn cả là phù hợp với khẩu vị người Việt. Cũng bắt đầu bằng hình ảnh chuỗi cửa hàng kinh doanh gà rán nhưng Jollibee lại giữ tiên phong trong công cuộc theo đuổi và chinh phục vị giác người Việt. Điều này không chỉ thể hiện qua các dòng sản phẩm chủ đạo như Gà giòn vui vẻ hay Mì Ý sốt bò bằm đã được điều chỉnh mùi vị để thật sự thỏa mãn khẩu vị Việt. Hơn thế nữa, còn dễ dàng thấy sự chiều chuộng của Jollibee dành cho khẩu vị người Việt Nam khi tung ra sản phẩm “Gà Sài Gòn Sốt Cay” đậm đà, cơm Cá Sốt Ngũ Vị hấp dẫn – kết quả  từ sự  hòa quyện hoàn hảo của gia vị Việt.Trải nghiệm bữa ăn hạnh phúc cho gia đình Việt Với cột mốc khai trương cửa hàng thứ 80 tại Hà Nội và mở rộng hơn nữa trong năm 2016, Jollibee Việt Nam mong muốn tiếp tục hành trình mang món ăn ngon đến từng gia đình Việt Nam. Không chỉ chú trọng chau chuốt từng món trong thực đơn, mà mỗi cửa hàng Jollibee đều phải tuân theo tiêu chuẩn dịch vụ của ngành để đảm bảo từng phút giây trong bữa ăn của khách hàng sẽ được phục vụ tốt nhất. Không dừng ở dịch vụ chuẩn, Jollibee đang được rất nhiều gia đình Việt biết đến là nơi tổ chức những bữa tiệc sinh nhật chất lượng và cực vui cho các bé. Nếu như thương hiệu thức ăn nhanh khác chỉ là một điểm đến ăn uống và thưởng thức hương vị “thức ăn nhanh” thì Jollibee lại là nơi tạo ra những trải nghiệm bữa ăn hạnh phúc cho gia đình Việt. Điều này thật sự được minh chứng khi ngày càng có nhiều gia đình Việt chọn Jollibee để quây quần sum họp.Jollibee hiểu rằng không thể đến trái tim người tiêu dùng bằng hình thức quảng cáo rầm rộ. Ngược lại, thương hiệu này đang thực sự từng bước làm cho họ yêu mến mình bằng việc chinh phục khẩu vị và đặc biệt cách tạo ra những giây phút gắn kết đầy yêu thương cho mọi gia đình Việt Nam. Song song đó, nhượng quyền thương hiệu Jollibee cũng đã khởi đầu đầy thuận lợi khi hơn 120 đối tác ở khắp các tỉnh thành yêu cầu hợp tác chỉ sau 1 tháng chính thức công bố. Hình thức này sẽ đưa Jollibee đến gần khách hàng hơn qua chuỗi cửa hàng rộng khắp cả nước."
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "star": 5,
+      "title": "hgfhgfj",
+      "approval": true,
+      "productId": 8,
+      "id": 2
+    },
+    {
+      "star": 5,
+      "title": "aSWS",
+      "approval": true,
+      "productId": 8,
+      "id": 3
+    },
+    {
+      "star": 3,
+      "title": "fgfdg",
+      "approval": true,
+      "productId": 7,
+      "id": 4
+    },
+    {
+      "star": 3,
+      "title": "lpplp",
+      "approval": true,
+      "productId": 7,
+      "id": 5
+    },
+    {
+      "star": 5,
+      "title": "gghhjhg",
+      "approval": true,
+      "productId": 8,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "myadmin@gmail.com",
+      "password": "$2a$10$yvp29p.EwqoPG86qcIwXveRxQfgi06rBb2qQ//hCocqGOA4sudD2K",
+      "role": 0,
+      "name": "Nguyen Thi My",
+      "phone": "0373066997",
+      "address": "Nam Từ Niêm,Hà Nội",
+      "time": "2021-09-14T10:37:43+07:00",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "name": "My Nguyen",
+      "address": "thuong lan- Việt Yên-Bac Giang",
+      "city": "Bac Giang",
+      "phone": "0373415148",
+      "email": "myuser@gmail.com",
+      "info": "fggffg",
+      "detail": [
+        {
+          "id": 5,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 3
+        }
+      ],
+      "id": 1,
+      "time": "2021-09-10T15:32:57+07:00"
+    },
+    {
+      "name": "My Nguyen",
+      "address": "thuong",
+      "city": "Bac Giang",
+      "phone": "0373415148",
+      "email": "myuser@gmail.com",
+      "info": "fggffg",
+      "detail": [
+        {
+          "id": 5,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "My Nguyen",
+      "address": "thuong",
+      "city": "Bac Giang",
+      "phone": "0373415148",
+      "email": "myuser@gmail.com",
+      "info": "fggffg",
+      "detail": [
+        {
+          "id": 5,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "gfg",
+      "detail": [
+        {
+          "id": 7,
+          "name": "1 MIẾNG GÀ SỐT CAY + CƠM",
+          "price": 42000,
+          "description": "1 Miếng Gà Giòn Cay / 1 Miếng Gà Giòn Không Cay / 1 Miếng Gà Truyền thống + cơm",
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "categoryId": 2,
+          "quantity": 1
         },
         {
-            "id": 2,
-            "title": "Jollibee kid club",
-            "content": "Hãy để con bạn thoả thích thể hiện và khám phá tài năng bên trong của mình cùng cơ hội gặp gỡ những bạn đồng lứa khác tại Jollibee Kids Club. Cùng tìm hiểu thêm thông tin về Jollibee Kids Club và tham gia ngay.",
-            "image": "https://jollibee.com.vn/images/service/3.png",
-            "detail": [{
-                "name": "Vui tung hoành - nhận quà cực đỉnh",
-                "description": "Các bé luôn thích vui chơi sau các giờ học căng thẳng tại trường , Jollibee biết được điều này và luôn thiết kế các chương trình phù hợp đáp ứng được nhu cầu vừa chơi- vừa học lại được ăn ngon. Đến với câu lạc bộ Jollibee các bé sẽ có dịp gặp gỡ những người bạn mới, được tham gia vào các trò chơi hấp dẫn, học thêm nhiều kỹ năng mới  lại được nhận quà xinh mang về. Hãy đến với cửa hàng Jollibee gần nhất tại khu vực để  tham gia vào các hoạt động đặc biệt mà Jollibee dành cho bé nhé. bên cạnh đó các bé nhà bạn còn được vui chơi cùng bạn Ong dễ thương và thưởng thức Mỳ Ý thơm ngon, Gà Rán giòn tan nữa đấy.",
-                "image": "https://jollibee.com.vn/images/kid/intro-club.png"
-            }]
-        }, {
-            "id": 3,
-            "title": "Đơn hàng lớn",
-            "content": "Để phục vụ sở thích quây quần cùng gia đình và bạn bè, chương trình chiết khấu hấp dẫn dành cho những đơn hàng lớn đã ra đời để đem đến những lựa chọn tiện lợi hơn cho bạn. Liên hệ ngay với cửa hàng gần nhất để được phục vụ.",
-            "image": "https://jollibee.com.vn/images/service/4.png",
-            "detail": [{
-                "name": "Càng đông càng vui",
-                "description": "Để phục vụ sở thích quây quần cùng gia đình và bạn bè, chương trình chiết khấu hấp dẫn dành cho những đơn hàng lớn đã ra đời để đem đến những lựa chọn tiện lợi hơn cho bạn. Liên hệ ngay với cửa hàng gần nhất để được phục vụ. Món ăn không chỉ ngon mà còn phải đông và vui. Jollibee cung cấp những ưu đãi hợp lý cho các bạn đang lựa chọn dịch vụ ăn ngon tại chỗ mà không phải đi xa.Với kinh nghiệm phục vụ cho các Trường học, Công Ty, Văn Phòng, Ngân Hàng, Đoàn thể, Jollibee hiểu rõ tầm quan trọng của một buổi tiệc vui hoành tráng của tập thể là như thế nào nên Jollibee tự thấy mình có trách nhiệm  trong từng phần ăn phục vụ đến tay khách hàng.Với tiêu chí Càng đông càng vui; Vui ăn ngon - vui được ưu đãi, khi khách hàng đặt nhiều phần ăn sẽ nhận được những ưu đãi tương ứng. Hãy liên hệ ngay với cửa hàng gần nhất để biết thêm thông tin chi tiết nhé!",
-                "image": "https://jollibee.com.vn/uploads/page/45fda14483c653-combobo22.png"
-            }]
+          "id": 8,
+          "name": "1 MIẾNG GÀ SỐT CAY + CƠM + NƯỚC + SÚP",
+          "price": 50000,
+          "description": "1 Miếng Gà Giòn Cay / 1 Miếng Gà Giòn Không Cay / 1 Miếng Gà Truyền thống + cơm + nước + súp",
+          "image": "https://jollibee.com.vn/uploads/dish/b827535750c3e4-hinhghep07.png",
+          "categoryId": 2,
+          "quantity": 1
         }
-    ],
-    "blogs": [{
-            "id": 1,
-            "image": "https://jollibee.com.vn/uploads/thumbnail/post/d3bcb5e267aff3-image006.jpg",
-            "title": "Khám phá nhà máy đạt chuẩn iso 22000: 2018 CỦA Jollibee",
-            "content": "Đạt được cột mốc cửa hàng thứ 100, Jollibee - chuỗi nhà hàng thức ăn nhanh lớn thứ 3 tại Việt Nam – càng củng cố cam kết lan tỏa niềm vui bất tận đến các gia đình Việt Nam.",
-            "detail": [{
-                "title": "Khám phá nhà máy đạt chuẩn iso 22000: 2018 CỦA Jollibee",
-                "description": "Nhà máy Jollibee Việt Nam tọa lạc tại Khu công nghiệp Tân Kim mở rộng (Cần Giuộc, Long An) có tổng diện tích 10.000 m2, được đầu tư dây chuyền hiện đại, hoạt động theo quy trình khép kín, đảm bảo tiêu chuẩn chất lượng quốc tế.Gà giòn vui vẻ, mỳ Ý sốt bò bằm, gà sốt cay… là những món ăn được khách hàng Việt yêu thích tại Jollibee. Những món ăn này sở hữu hương vị thơm ngon, đảm bảo chất lượng vệ sinh an toàn thực phẩm cùng mức giá hợp lý."
-            }]
+      ],
+      "id": 4
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "ffggf",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "ffggf",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "cbghg",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "bnvb",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "bnvb",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "Mii",
+      "address": "so 6 duong le loi",
+      "city": "Bac Giang",
+      "phone": "0373674123",
+      "email": "myuser@gmail.com",
+      "info": "gfdfgg",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 3
+        }
+      ],
+      "id": 10
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "ydtuduy",
+      "detail": [
+        {
+          "id": 4,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "categoryId": 1,
+          "quantity": 3
         },
         {
-            "id": 2,
-            "image": "https://jollibee.com.vn/uploads/thumbnail/post/ce17e25a745d3d-1600524922w50063841568619115.png",
-            "title": "Nhà máy mới Jollibee được Viêt Nam nhận iso 22000:2018",
-            "content": "Năm nay, Jollibee Việt Nam đưa vào vận hành nhà máy mới tại Long An và nhận được chứng nhận ISO 22000: 2018 về quản lý ...",
-            "detail": [{
-                "title": "Nhà máy mới Jollibee được Viêt Nam nhận iso 22000:2018",
-                "description": "Năm 2019, Jollibee Việt Nam vừa đánh dấu bước chuyển mình trong ngành thức ăn nhanh bằng việc đưa vào hoạt động nhà máy chế biến mới tại khu công nghiệp Tân Kim mở rộng, Cần Giuộc, Long An. Công ty đã nhận chứng nhận quốc tế ISO 22000:2018. Việc xây dựng và sở hữu riêng nhà máy chế biến được xem là dấu ấn, giúp Jollibee Việt Nam chiếm ưu thế trên thị thường thức ăn nhanh trong nước, trở thành một trong những thương hiệu dẫn đầu về chất lượng sản phẩm, dịch vụ trong ngành QSR nói chung."
-            }]
-        }, {
-            "id": 3,
-            "image": "https://jollibee.com.vn/uploads/thumbnail/post/b2427b54e5bed3-hnhnh1.jpg",
-            "title": "Jollibee tưng bừng khai trương cửa hằng thứ 100 tại Việt Nam",
-            "content": "Jollibee Việt Nam đã đưa vào vận hành nhà máy mới với chứng nhận ISO 22000:2018 về quản lý an toàn vệ sinh thực phẩm quốc tế.",
-            "detail": [{
-                "title": "Jollibee tưng bừng khai trương cửa hằng thứ 100 tại Việt Nam",
-                "description": "Từ khi khai trương cửa hàng đầu tiên tại Việt Nam vào năm 2005, chúng tôi rất vinh dự khi Jollibee luôn được người dân Việt Nam đón nhận nồng nhiệt” – ông Dennis Flores, Giám đốc bộ phận Kinh doanh quốc tế tập đoàn Jollibee chia sẻ. “Với nhiều thực khách, Jollibee là một trong những trải nghiệm ẩm thực đặc biệt đầu tiên với cả gia đình, dù là tụ họp để thưởng thức những món ăn ngon hay tổ chức những bữa tiệc cho các con. Những khoảnh khắc tương tự như vậy góp phần tạo nên những niềm vui bất tận mà Jollibee và các gia đình Việt đã cùng trải qua trong những năm vừa qua. Do đó, hoạt động kinh doanh tại Việt Nam đã và đang đóng vai trò trụ cột trong hoạt động kinh doanh quốc tế của Jollibee, và Việt Nam vẫn sẽ tiếp tục là một trong những thị trường quan trọng bậc nhất ngay cả khi chúng tôi vươn xa hơn ra những thị trường khác trên thế giới.”Ông Lâm Hồng Nguyên, Tổng Giám đốc Jollibee Việt Nam, cho biết: “Jollibee luôn cố gắng lan tỏa niềm vui đến mợi người ở khắp mọi nơi. Với hệ thống 100 cửa hàng trên cả nước, chúng tôi vô cùng phấn khởi khi có thể đưa Jollibee - thương hiệu của niềm vui và tiếng cười – đến gần hơn với các gia đình Việt từ Bắc chí Nam"
-            }]
-        }, {
-            "id": 4,
-            "image": "https://jollibee.com.vn/uploads/thumbnail/post/30bbd2a8752dea-jollibeehangdieu_new_jun082016.jpg",
-            "title": "Jollibee - Thấu hiểu để thành công",
-            "content": "Thị trường thức ăn nhanh tại Việt Nam chưa bao giờ “giảm nhiệt” cạnh tranh khi ngày càng có nhiều thương hiệu gia nhập sân chơi với quy mô chuỗi cửa hàng lớn mạnhvà chiến lược kinh doanh liên tục thay đổi. Để thành công, các thương hiệu thức ăn nhanh phải có chiến lược phù hợp và khác biệt.",
-            "detail": [{
-                "title": "Jollibee - Thấu hiểu để thành công",
-                "description": "Thông tin Burger King đóng một số cửa hàng ở TP.HCM, Đà Nẵng đã dấy lên những nghi ngờ về thị trường này đang gặp khó. Tuy nhiên, đại diện Burger King cho hay, việc đóng cửa một loạt cửa hàng là chiến lược thay thế chuỗi cửa hàng mới, có vị trí đẹp hơn. Tương tự, McDonalds cũng đã liên tục mở rộng chuỗi cửa hàng ở những vị trí đắc địa. Đại diện Lotteria cũng cho biết, từ năm 2014, Hãng chú trọng mở các cửa hàng trọng điểm, diện tích tương đối lớn, vị trí đắc địa. Với 19 cửa hàng hiện có, Dairy Queen (DQ) cũng chỉ tập trung ở trung tâm và dự kiến phát triển lên 60 cửa hàng vào năm 2019.Trước đó vào tháng 12/2015, Jollibee - Thương hiệu thứcaăn nhanh đến từ Philippines - cũng đã công bố mở được hơn 70 cửa hàng sau hơn 10 năm hoạt động. Theo bà Trần Thị Lan Anh, Phó chủ tịch Tập đoàn Jollibee Food, kiêm Tổng Giám đốc Công ty TNHH Jollibee Việt Nam, Jollibee đã tự xây dựng được một chuỗi cửa hàng rộng lớn với nhiều món ăn quốc tế và địa phương cùng một đội ngũ quản lý vững vàng. Theo kế hoạch, mỗi năm thương hiệu này sẽ tự mở thêm khoảng 20 cửa hàng. Chinh phục “thượng đế” bằng món ăn ngon.Không chỉ cạnh trạnh trong cuộc đua mở chuỗi, các “ông lớn” ngành thức ăn nhanh còn phải giành lấy cảm tình của “thượng đế” qua từng món ăn ngon và hơn cả là phù hợp với khẩu vị người Việt. Cũng bắt đầu bằng hình ảnh chuỗi cửa hàng kinh doanh gà rán nhưng Jollibee lại giữ tiên phong trong công cuộc theo đuổi và chinh phục vị giác người Việt. Điều này không chỉ thể hiện qua các dòng sản phẩm chủ đạo như Gà giòn vui vẻ hay Mì Ý sốt bò bằm đã được điều chỉnh mùi vị để thật sự thỏa mãn khẩu vị Việt. Hơn thế nữa, còn dễ dàng thấy sự chiều chuộng của Jollibee dành cho khẩu vị người Việt Nam khi tung ra sản phẩm “Gà Sài Gòn Sốt Cay” đậm đà, cơm Cá Sốt Ngũ Vị hấp dẫn – kết quả  từ sự  hòa quyện hoàn hảo của gia vị Việt.Trải nghiệm bữa ăn hạnh phúc cho gia đình Việt Với cột mốc khai trương cửa hàng thứ 80 tại Hà Nội và mở rộng hơn nữa trong năm 2016, Jollibee Việt Nam mong muốn tiếp tục hành trình mang món ăn ngon đến từng gia đình Việt Nam. Không chỉ chú trọng chau chuốt từng món trong thực đơn, mà mỗi cửa hàng Jollibee đều phải tuân theo tiêu chuẩn dịch vụ của ngành để đảm bảo từng phút giây trong bữa ăn của khách hàng sẽ được phục vụ tốt nhất. Không dừng ở dịch vụ chuẩn, Jollibee đang được rất nhiều gia đình Việt biết đến là nơi tổ chức những bữa tiệc sinh nhật chất lượng và cực vui cho các bé. Nếu như thương hiệu thức ăn nhanh khác chỉ là một điểm đến ăn uống và thưởng thức hương vị “thức ăn nhanh” thì Jollibee lại là nơi tạo ra những trải nghiệm bữa ăn hạnh phúc cho gia đình Việt. Điều này thật sự được minh chứng khi ngày càng có nhiều gia đình Việt chọn Jollibee để quây quần sum họp.Jollibee hiểu rằng không thể đến trái tim người tiêu dùng bằng hình thức quảng cáo rầm rộ. Ngược lại, thương hiệu này đang thực sự từng bước làm cho họ yêu mến mình bằng việc chinh phục khẩu vị và đặc biệt cách tạo ra những giây phút gắn kết đầy yêu thương cho mọi gia đình Việt Nam. Song song đó, nhượng quyền thương hiệu Jollibee cũng đã khởi đầu đầy thuận lợi khi hơn 120 đối tác ở khắp các tỉnh thành yêu cầu hợp tác chỉ sau 1 tháng chính thức công bố. Hình thức này sẽ đưa Jollibee đến gần khách hàng hơn qua chuỗi cửa hàng rộng khắp cả nước."
-            }]
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
+          "price": 80000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "categoryId": 1,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "categoryId": 1,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "1 MIẾNG GÀ SỐT CAY + CƠM",
+          "price": 42000,
+          "description": "1 Miếng Gà Giòn Cay / 1 Miếng Gà Giòn Không Cay / 1 Miếng Gà Truyền thống + cơm",
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "categoryId": 2,
+          "quantity": 2
         }
-    ]
-
+      ],
+      "id": 11
+    },
+    {
+      "name": "Mii",
+      "address": "so 6 duong le loi",
+      "city": "Bac Giang",
+      "phone": "0373674123",
+      "email": "myuser@gmail.com",
+      "info": "gfdhgh",
+      "detail": [
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 12
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "gfdhhfdf",
+      "detail": [
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 13
+    },
+    {
+      "name": "MyNT",
+      "address": "thuonfg",
+      "city": "Bac Giang",
+      "phone": "0373412567",
+      "email": "useradmin1@gmail.com",
+      "info": "ghjjf",
+      "detail": [
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
+          "price": 80000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "categoryId": 1,
+          "quantity": 2
+        }
+      ],
+      "id": 14
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "fh",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": "60000",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": "116000",
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
+          "price": 80000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "categoryId": 1,
+          "quantity": 1
+        }
+      ],
+      "id": 15
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "hchh",
+      "detail": [],
+      "id": 16
+    },
+    {
+      "name": "My Nguyen",
+      "address": "thuong",
+      "city": "Bac Giang",
+      "phone": "0373415148",
+      "email": "myuser@gmail.com",
+      "info": "gfdhgh",
+      "detail": [],
+      "id": 17
+    },
+    {
+      "name": "My Nguyen",
+      "address": "TT Bích Động - Việt Yên",
+      "city": "Thành phố Hà Nội",
+      "phone": "0373415145",
+      "email": "mybg2309@gmail.com",
+      "info": "cfghgh",
+      "detail": [],
+      "id": 18
+    },
+    {
+      "name": "My Nguyen",
+      "address": "thuong",
+      "city": "Bac Giang",
+      "phone": "0373415148",
+      "email": "myuser@gmail.com",
+      "info": "fjhg",
+      "detail": [
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": "116000",
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
+          "price": 80000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "categoryId": 1,
+          "quantity": 1
+        }
+      ],
+      "id": 19
+    },
+    {
+      "name": "Mii",
+      "address": "so 6 duong le loi",
+      "city": "Bac Giang",
+      "phone": "0373674123",
+      "email": "myuser@gmail.com",
+      "info": "jhhjjk",
+      "detail": [
+        {
+          "id": 1,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": "60000",
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": "116000",
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống",
+          "categoryId": 1,
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
+          "price": 80000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "categoryId": 1,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": 60000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "categoryId": 1,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "4 MIẾNG GÀ GIÒN",
+          "price": 116000,
+          "description": "4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "categoryId": 1,
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT",
+          "price": 80000,
+          "description": "2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền thống + khoai tây và nước ngọt",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "categoryId": 1,
+          "quantity": 1
+        }
+      ],
+      "id": 20
+    },
+    {
+      "name": "Mii",
+      "address": "so 6 duong le loi",
+      "city": "Bac Giang",
+      "phone": "0373674123",
+      "email": "myadmin@gmail.com",
+      "info": "gfhgh",
+      "detail": [
+        {
+          "name": "2 MIẾNG GÀ GIÒN",
+          "price": "60001",
+          "description": "hkjgjk",
+          "categoryId": "3",
+          "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png",
+          "timeSaved": 1631121851954,
+          "id": 10,
+          "time": "2021-09-09T21:55:44+07:00",
+          "quantity": 4
+        },
+        {
+          "name": "Áo Polo nữ",
+          "price": "60001",
+          "description": "fgdhf",
+          "categoryId": "3",
+          "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png",
+          "time": "2021-09-09T23:47:12+07:00",
+          "id": 11,
+          "quantity": 2
+        }
+      ],
+      "id": 21
+    },
+    {
+      "name": "My Nguyen",
+      "address": "thuong lan",
+      "city": "Bac Giang",
+      "phone": "0373415148",
+      "email": "myuser@gmail.com",
+      "info": "kkkl",
+      "detail": [
+        {
+          "id": 7,
+          "name": "1 MIẾNG GÀ SỐT CAY + CƠM",
+          "price": 42000,
+          "description": "1 Miếng Gà Giòn Cay / 1 Miếng Gà Giòn Không Cay / 1 Miếng Gà Truyền thống + cơm",
+          "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png",
+          "categoryId": 2,
+          "time": "2021-09-09T23:05:04+07:00",
+          "quantity": 2
+        }
+      ],
+      "id": 22
+    }
+  ],
+  "productsImage": [
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/427e7a3136f84a-4mingggin.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/d07da082f7ebc7-2810016_02miengcj01khoaivua01pepsi.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/b827535750c3e4-hinhghep07.png"
+    },
+    {
+      "image": "https://jollibee.com.vn/uploads/dish/8f78c6810be7e1-2840004_jedscombo65kcompressor.png"
+    }
+  ],
+  "categoriesImage": [
+    {
+      "image1": "https://jollibee.com.vn/uploads/setting/4b675b9eef6680-menugagionvuive.png",
+      "image2": "https://jollibee.com.vn/uploads/setting/e17856b74b7a0e-titlegagionvuive.png"
+    },
+    {
+      "image1": "https://jollibee.com.vn/uploads/setting/32f3bc4c206abb-cmg.png",
+      "image2": "https://jollibee.com.vn/uploads/setting/0a7c5c03bdcaaf-titlegasotcay.png"
+    },
+    {
+      "image1": "https://jollibee.com.vn/uploads/setting/4b675b9eef6680-menugagionvuive.png",
+      "image2": "https://jollibee.com.vn/uploads/setting/870d84c56fb2b9-titlemiysotbobam.png"
+    }
+  ]
 }

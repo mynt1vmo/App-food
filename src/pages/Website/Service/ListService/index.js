@@ -1,9 +1,15 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+
 import styles from "./listServer.module.css";
+import { getServices } from "../../../../store/Service/action";
 
 const ListService = () => {
+  const dispatch = useDispatch();
   const services = useSelector((state) => state.services);
+  useEffect(() => {
+    dispatch(getServices());
+  }, []);
   return (
     <div>
       {services.services?.map((item) => (

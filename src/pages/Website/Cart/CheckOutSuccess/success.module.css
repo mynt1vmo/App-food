@@ -1,0 +1,38 @@
+            .thanks {
+                background-color: #950E08;
+                padding: 2rem;
+                color: #fff;
+                font-size: 2.8125rem;
+                text-align: center;
+            }
+            
+            .message {
+                background: url(https://jollibee.com.vn/images/thankyou/thankyou-bg.jpg) no-repeat center center;
+                background-size: cover
+            }
+            
+            .announce {
+                overflow: hidden;
+                max-width: 700px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .text {
+                width: 60%;
+                background: url(https://jollibee.com.vn/images/thankyou/text-bg.png) no-repeat center center;
+                background-size: 100% 100%;
+                padding: 10px 20px;
+                font-size: 1.375rem;
+            }
+            
+            .bee {
+                width: 40%;
+                margin-top: 75px;
+            }
+            
+            .bee img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }

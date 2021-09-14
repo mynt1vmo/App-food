@@ -12,9 +12,9 @@ const Home = () => (
     <Category />
     <Service />
     <div className={styles.intro_content}>
-      <h3 className={styles.title}>JOLLIBEE, XIN CHÀO</h3>
+      <h3 className={styles.title}>STEAM, XIN CHÀO</h3>
       <p className={styles.title_content}>
-        Chúng tôi là Jollibee Việt Nam với hơn 100 cửa hàng trên khắp cả nước,
+        Chúng tôi là STEAM Việt Nam với hơn 100 cửa hàng trên khắp cả nước,
         chúng tôi mong muốn đem đến niềm vui ẩm thực cho mọi gia đình Việt bằng
         những món ăn có chất lượng tốt, hương vị tuyệt hảo, dịch vụ chu đáo với
         một mức giá hợp lý… Hãy đến và thưởng thức nhé!

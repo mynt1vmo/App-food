@@ -1,0 +1,19 @@
+.form input {
+    padding: 0 20px;
+    width: 80%;
+    height: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #c62026;
+    padding: 10px 30px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: white;
+}

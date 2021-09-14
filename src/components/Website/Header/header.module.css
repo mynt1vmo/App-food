@@ -25,11 +25,17 @@
 
 .navbar .navbar_item {
     list-style: none;
-    padding: 10px 20px;
     margin-bottom: 0;
+    margin-right: 10px;
 }
 
-.navbar .navbar_item:hover {
+.navbar .navbar_item a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+    color: var(--main-color-red);
+}
+
+.navbar .navbar_item a.navLink {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px 10px 0px 0px;
     color: var(--main-color-red);
@@ -40,10 +46,8 @@
     color: white;
     font-size: 13px;
     font-weight: 700;
-}
-
-.navbar .navbar_item a:hover {
-    color: var(--main-color-red);
+    padding: 10px 20px;
+    display: inline-block;
 }
 
 .header_login a {
@@ -56,4 +60,35 @@
 
 .header_login a:hover {
     color: white;
+}
+
+.name {
+    border-right: 1px solid white;
+    padding: 0 30px;
+    position: relative;
+}
+
+.my_account {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px 10px 0 0;
+    top: 16px;
+    right: 0;
+    left: 0;
+}
+
+.my_account li {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.my_account li a {
+    color: white;
+}
+
+.name:hover>.my_account {
+    display: block;
+    padding: 16px 10px;
 }

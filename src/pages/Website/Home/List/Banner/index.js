@@ -8,13 +8,13 @@ import {
 
 const items = [
   {
-    src: "https://jollibee.com.vn/uploads/page/f5dfe95cc2aa6d-coverwebsite1.jpg"
+    src: "https://cdn.shopify.com/s/files/1/0016/3387/8116/files/slider1_2000x.jpg?v=1542975808"
   },
   {
-    src: "https://jollibee.com.vn/uploads/page/2360cf2701edc3-websitebanner7up_bannerweb1.png"
+    src: "https://cdn.shopify.com/s/files/1/0016/3387/8116/files/slider2_2000x.jpg?v=1542975800"
   },
   {
-    src: "https://jollibee.com.vn/uploads/page/6210006886d8bc-digital_bannerweb.jpg"
+    src: "https://cdn.shopify.com/s/files/1/0016/3387/8116/files/slider3_2000x.jpg?v=1542975785"
   }
 ];
 

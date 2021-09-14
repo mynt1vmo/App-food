@@ -1,24 +1,32 @@
 import "./App.css";
-import { Provider } from "react-redux";
-import Routes from "./routes";
-import { store } from "./store";
-import { getProducts } from "./store/Product/action";
-import { getCategories } from "./store/Category/action";
-import { getServices } from "./store/Service/action";
-import { getBlogs } from "./store/Blog/action";
+import { useSelector } from "react-redux";
+import { Spin } from "antd";
 
-store.dispatch(getProducts());
-store.dispatch(getCategories());
-store.dispatch(getServices());
-store.dispatch(getBlogs());
+import Routes from "./routes";
+import { localStore, localUser } from "./localStorage";
+
+const data = localStore.get();
+
+if (data) {
+  localStore.set(data);
+} else {
+  localStore.set({});
+}
+const user = localUser.get();
+if (user) {
+  localUser.set(user);
+} else {
+  localUser.set({});
+}
 
 function App() {
+  const spin = useSelector((state) => state.spin);
   return (
-    <Provider store={store}>
+    <Spin size="large" spinning={spin.spinning}>
       <div className="App">
         <Routes />
-      </div>
-    </Provider>
+      </div>{" "}
+    </Spin>
   );
 }
 

@@ -7,7 +7,7 @@ const Service = () => (
     <div className={styles.banner}>
       <div className={styles.pop}>
         <div className={styles.vertical}>
-          <h1>Dịch vụ</h1>
+          <h1 style={{ color: "white" }}>Dịch vụ</h1>
           <img src="https://jollibee.com.vn/images/popline.svg" alt="" />
           <p className={styles.content_title}>
             TẬN HƯỞNG NHỮNG KHOẢNH KHẮC TRỌN VẸN CÙNG JOLLIBEE

@@ -11,7 +11,7 @@ const Footer = () => (
         <Col>
           <div>
             <a href="/">
-              <img src="https://jollibee.com.vn/images/logo.png" alt="" />
+              <img src="./assets/image/logo-white.png" alt="" />
             </a>
           </div>
         </Col>
@@ -25,7 +25,7 @@ const Footer = () => (
               Tổng đài : <a href="/"> 1900-1533</a>
             </p>
             <p>
-              Hộp thư góp ý: <a href="">jbvnfeedback@jollibee.com.vn</a>
+              Hộp thư góp ý: <a href="">jbvnfeedback@thechicken.com.vn</a>
             </p>
             <p>
               Hoặc gửi phản hồi tại <a href="/">ĐÂY</a>

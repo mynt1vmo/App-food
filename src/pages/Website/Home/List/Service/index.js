@@ -15,7 +15,7 @@ const Service = () => {
             DỊCH VỤ
           </h3>
           <h4 style={{ fontSize: "20px", fontWeight: "700", color: "#42210b" }}>
-            TẬN HƯỞNG NHỮNG KHOẢNH KHẮC TRỌN VẸN CÙNG JOLLIBEE
+            TẬN HƯỞNG NHỮNG KHOẢNH KHẮC TRỌN VẸN CÙNG STEAM
           </h4>
         </div>
         <Row>

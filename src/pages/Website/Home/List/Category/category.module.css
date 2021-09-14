@@ -12,6 +12,8 @@
 
 .text_uppercase {
     text-transform: uppercase;
+    padding: 40px 0;
+    color: white;
 }
 
 .card_category {

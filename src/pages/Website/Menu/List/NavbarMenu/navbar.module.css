@@ -4,20 +4,50 @@
     background: #CE181F;
     font-family: "MergeBlack", sans-serif;
     margin-left: 0;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navbar_menu li {
-    padding: 20px;
     list-style: none;
+    padding: 17px;
 }
 
 .navbar_menu li a {
     color: white;
     text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-.navbar_menu li:hover {
+.navbar_menu a:hover {
     background-color: #FFD477;
     color: #CE181F;
+}
+
+.navbar_menu a.nav_item {
+    background-color: #FFD477;
+    color: #CE181F;
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+    margin: 20px 30px;
+}
+
+.search input {
+    outline: none;
+    border: 1px solid #CE181F;
+    margin-right: 10px;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+.search button {
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    background-color: #CE181F;
+    border-radius: 5px;
 }

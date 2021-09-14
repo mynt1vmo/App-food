@@ -1,0 +1,46 @@
+.detail_user {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.name input,
+.address input,
+.city input,
+.phone input,
+.email input,
+.info textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 20px;
+}
+
+.name label,
+.address label,
+.city label,
+.phone label,
+.email label,
+.info label {
+    margin: 10px 0;
+}
+
+.sum {
+    margin: 45px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.sum_detail {
+    padding: 10px 20px;
+}
+
+.button {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 0;
+    background-color: #4A8B71;
+    color: white;
+    margin-top: 30px;
+}
